@@ -1,0 +1,9 @@
+dataset,split,column,value,count,maps_to
+deepset/prompt-injections,train,label,0,343,benign (0)
+deepset/prompt-injections,train,label,1,203,attack (1)
+deepset/prompt-injections,test,label,1,60,attack (1)
+deepset/prompt-injections,test,label,0,56,benign (0)
+jackhhao/jailbreak-classification,train,type,jailbreak,527,attack (1)
+jackhhao/jailbreak-classification,train,type,benign,517,benign (0)
+jackhhao/jailbreak-classification,test,type,jailbreak,139,attack (1)
+jackhhao/jailbreak-classification,test,type,benign,123,benign (0)

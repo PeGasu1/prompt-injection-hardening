@@ -1,0 +1,12 @@
+split,source,n,injection,benign,median_words,p95_words
+train,benign_chat,721,0,721,11.0,24.0
+train,deepset,284,107,177,9.0,48.69999999999993
+train,gandalf,721,721,0,9.0,28.0
+val,benign_chat,127,0,127,11.0,25.0
+val,deepset,51,19,32,9.0,40.5
+val,gandalf,127,127,0,9.0,29.799999999999955
+test_in,benign_chat,150,0,150,12.0,23.549999999999983
+test_in,deepset,72,37,35,11.0,58.70000000000002
+test_in,gandalf,150,150,0,11.0,28.099999999999966
+test_ood,jackhhao,400,200,200,105.5,780.0
+notinject,notinject,339,0,339,15.0,27.0

@@ -1,0 +1,20 @@
+# Install PyTorch with CUDA first (see README), then:  pip install -r requirements.txt
+# Versions below are the ones the pipeline was tested with (Python 3.13).
+transformers==5.20.1
+datasets==5.1.0
+tokenizers==0.23.3
+sentencepiece==0.2.2
+protobuf==7.36.2
+accelerate==1.15.0
+scikit-learn==1.9.1
+pandas==3.0.6
+numpy==2.5.4
+matplotlib==3.11.2
+pyarrow==26.0.0
+confusable-homoglyphs==3.3.1
+tqdm
+nbformat
+ipykernel
+ipywidgets
+jupyter
+gradio==6.30.0
