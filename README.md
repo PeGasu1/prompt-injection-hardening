@@ -4,7 +4,7 @@ Small classifiers placed in front of an LLM application are a cheap first line o
 against prompt injection, but simple character tricks (invisible characters, look-alike
 letters, spacing) can make them miss attacks (Hackett et al., 2025). This project measures how
 much each kind of detector loses under six obfuscation families and compares three low-cost
-ways to win it back:
+ways to win it back: 
 
 1. **Normalisation**: a rule-based text cleaner applied before any detector (no retraining).
 2. **Obfuscation augmentation**: random obfuscation of *both* classes during training.
